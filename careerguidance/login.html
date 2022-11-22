@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="loginandsignup.css"> <script type="text/javascript" src="validation.js"></script>
+<title>login</title>
+</head>
+<body>
+<center>
+    <div id="logindiv">
+<h1 id="login" >Login</h1>
+<div id="form" >
+<form  onsubmit="return validation();" method="POST" action="login.php">
+<table>
+<tr><td>Email</td> <td></td></tr>
+
+<tr><td><input class="in" type="text" id="username" colour="black" name="user"></td><td><label id="userlbl" class="msg" >Please Enter Your Email Address</label></td></tr>
+<tr><td>password</td><td></td></tr>
+<tr><td><input class="in" type="text" id="password" name="password"></td><td><label id="passlbl" class="msg" >Please Enter Your Password</label></td></tr>
+<tr><td><button class="btn" type="submit">Login</button></td></tr>
+</table>
+</form>
+<div class="label">
+<label>Not have an account?<a id="labl" href="regform.html" >Sign Up Here</a></label>
+</div>
+</div>
+</div>
+</center>
+</body>
+
+</html>

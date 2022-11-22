@@ -1,0 +1,113 @@
+*{       
+	color:white;    
+	padding:0px;                            /*this is login  and signup  page css */
+    margin:0px;
+	font-family: 'Poppins',sans-serif;
+}
+
+body{
+background-color: black;
+    }
+
+	#logindiv{
+		margin-top:200px;
+		margin-left:200px;
+	}
+	#login{
+		text-align: center;
+		margin-left:-225px;
+		margin-bottom: 10px;
+		padding-top: 15px;
+		color: rgb(237, 28,36);
+	}
+	table{
+		font-size: 18px;
+	}
+	input,select,textarea{
+		color:black;
+
+	}
+.container{
+ margin-left:30%;
+ margin-top:10%;
+}
+
+.msg{
+ color:red;
+visibility:hidden;
+}
+#signupheading{
+	color :red;
+	margin-bottom: 20px;
+     margin-left:170px;
+	
+}
+
+
+.policy{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
+ .policy a{
+    color: rgb(237, 28,36);
+ }
+option{
+	color:black;
+}
+
+.label{
+font-size:15px;
+margin-top:10px;
+margin-left:-250px;
+text-decoration:none;
+cursor:pointer;
+}
+#label{
+	font-size:20px;
+	margin-top:10px;
+	margin-left:250px;
+	text-decoration:none;
+	cursor:pointer;
+	}
+
+.btn{
+	width: 240px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+	border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+ 
+ .btn:hover{
+	background-color: rgb(237, 28,36);
+ }
+ .blank{
+	width:220px;
+ }
+ 
+.in{
+	width:230px;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+ .radio{
+	width:20px;
+	height:20px;
+}
+ table{
+	border-spacing:10px;
+ }
